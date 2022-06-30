@@ -260,8 +260,8 @@
 .header__news {
   z-index: 2;
   position: absolute;
-  top: 180%;
-  right: 0;
+  top: calc(100% + 12px);
+  right: -25%;
   width: 400px;
   border: 1px solid #d3d3d3;
   background-color: var(--white-color);
@@ -279,7 +279,7 @@
   border-color: transparent transparent var(--white-color) transparent;
   position: absolute;
   right: 0px;
-  top: -32px;
+  top: -30px;
 }
 
 .header__news-item::after {
@@ -331,6 +331,7 @@
 .header__news-list {
   padding-left: 0;
   background-color: #fff2ee;
+  list-style: none;
 }
 
 .header__news-item:hover {
@@ -394,9 +395,6 @@
   font-weight: 400;
   color: var(--primary-color);
   cursor: pointer;
-}
-
-.auth-form__form {
 }
 
 .auth-form__input {
@@ -1037,8 +1035,6 @@
 }
 
 /* Mobile category */
-.mobile-category {
-}
 
 .mobile-category__list {
   list-style: none;

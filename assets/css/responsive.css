@@ -4,22 +4,13 @@
     display: none;
   }
   .grid__item {
-    /* 30px === gap(10px)  * (4 - 1) */
-    /* 5 là số cột muốn chia */
-    width: calc((100% - 40px) / 5);
+    width: calc(100% / 5 - 40px / 5);
   }
-  .app__content {
-  }
+
   .row {
     width: 1200px;
     margin: 0 auto;
   }
-  .category.mobile {
-    /* display: none; */
-  }
-  /* .category {
-    display: flex;
-  } */
 }
 
 /* Mobile & Tablet */
@@ -58,7 +49,6 @@
 }
 
 /* Tablet */
-
 @media (min-width: 740px) and (max-width: 1023px) {
   .hide-on-tablet {
     display: none;
@@ -83,9 +73,6 @@
     display: flex;
   }
 
-  /* .header__menu-checkbox:checked ~ .category {
-    display: block;
-  } */
   .category {
     display: none;
   }
