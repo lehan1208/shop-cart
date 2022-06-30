@@ -260,7 +260,7 @@
 .header__news {
   z-index: 2;
   position: absolute;
-  top: calc(100% + 12px);
+  top: calc(100% + 15px);
   right: -25%;
   width: 400px;
   border: 1px solid #d3d3d3;
